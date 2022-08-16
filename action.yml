@@ -9,3 +9,9 @@ inputs:
     description: "Working directory, defaults to env.GITHUB_WORKSPACE"
   krew_template_file:
     description: "the path to template file relative to $workdir. e.g. templates/misc/plugin-name.yaml. defaults to .krew.yaml"
+  registry_hostname:
+    description: ""
+  registry_username:
+     description: ""
+  registry_password:
+      description: ""
